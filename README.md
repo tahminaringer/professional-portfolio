@@ -12,3 +12,4 @@ You will also see any lint errors in the console.
 
 ### Links/Resources
 - [React Website Tutorial](https://www.youtube.com/watch?v=I2UBjN5ER4s)
+- [Hamberger Menu](https://fontawesome.com/icons/bars?style=solid)
