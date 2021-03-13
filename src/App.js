@@ -2,7 +2,11 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/pages/Home'
+import Home from './components/pages/Home';
+import Resume from './components/pages/Resume';
+import DevPortfolio from './components/pages/DevPortfolio';
+import FloralPortfolio from './components/pages/FloralPortfolio';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
@@ -11,6 +15,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home}/>
+          <Route path='/Resume' component={Resume}/>
+          <Route path='/DevPortfolio' component={DevPortfolio}/>
+          <Route path='/FloralPortfolio' component={FloralPortfolio}/>
+          <Route path='/Contact' component={Contact}/>
         </Switch>
       </Router>
     </div>
