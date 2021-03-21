@@ -9,16 +9,16 @@ function Cards() {
       <div className="cards__container">
         <ul className="cards__items">
           <CardItem 
-          src="images/img-9.jpg"
+          src="images/family.jpg"
           text="Description of photo"
-          label="Adventure"
+          label="Label"
           //path linked to line 8 on carditem.js
           path="/services"
           />
           <CardItem 
           src="images/img-2.jpg"
           text="Description of photo"
-          label="Adventure"
+          label="Label"
           //path linked to line 8 on carditem.js
           path="/services"
           />
@@ -27,21 +27,21 @@ function Cards() {
           <CardItem 
           src="images/img-95.jpg"
           text="Description of photo"
-          label="Adventure"
+          label="Label"
           //path linked to line 8 on carditem.js
           path="/services"
           />
           <CardItem 
           src="images/img-25.jpg"
           text="Description of photo"
-          label="Adventure"
+          label="Label"
           //path linked to line 8 on carditem.js
           path="/services"
           />
           <CardItem 
           src="images/img-35.jpg"
           text="Description of photo"
-          label="Adventure"
+          label="Label"
           //path linked to line 8 on carditem.js
           path="/services"
           />
