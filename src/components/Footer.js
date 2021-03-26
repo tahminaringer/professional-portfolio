@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Footer.css'
 
@@ -16,6 +17,27 @@ function Footer() {
         </form>
       </div>
       </section> 
+      <div className="footer-links">
+        <div className="footer-link-wrapper">
+          {/* Can copy and past footer-link-items for whatever is needed */}
+          <div className="footer-link-items">
+            <h2>About</h2>
+            <Link to='/sign-up'>How It Works</Link>
+            <Link to='/'>References</Link>
+            <Link to='/'>Resume</Link>
+            <Link to='/'>Investors</Link>
+            <Link to='/'>Terms of service</Link>
+            <div className="footer-link-items">
+              <h2>Contact Us</h2>
+              <Link to='/sign-up'>How It Works</Link>
+              <Link to='/'>References</Link>
+              <Link to='/'>Resume</Link>
+              <Link to='/'>Investors</Link>
+              <Link to='/'>Terms of service</Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
