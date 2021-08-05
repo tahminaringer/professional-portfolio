@@ -16,8 +16,8 @@ function Cards() {
           path="/services"
           />
           <CardItem 
-          src="images/img-2.jpg"
-          text="Description of photo"
+          src="images/fairy-bouquet.jpg"
+          text="Whimsical bridal bouquet in whites and yellows"
           label="Label"
           //path linked to line 8 on carditem.js
           path="/services"
@@ -25,7 +25,7 @@ function Cards() {
         </ul>
         <ul className="cards__items">
           <CardItem 
-          src="images/img-95.jpg"
+          src="images/fairy-bouquet.jpg"
           text="Description of photo"
           label="Label"
           //path linked to line 8 on carditem.js
