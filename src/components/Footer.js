@@ -33,7 +33,7 @@ function Footer() {
               <Link to='/'>References</Link>
               <Link to='/'>Resume</Link>
               <Link to='/'>Investors</Link>
-              <Link to='/'>Terms of service</Link>
+            
             </div>
           </div>
         </div>
